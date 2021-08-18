@@ -1,7 +1,9 @@
 const url = "https://www.espncricinfo.com/series/ipl-2020-21-1210595";
 const fs = require("fs");
 const path = require("path");
-// Venue date opponent result runs balls fours sixes sr
+
+// Venue date opponent result runs balls fours sixes strikerate
+
 const request = require("request");
 const cheerio = require("cheerio");
 const AllMatcgObj = require("./Allmatch");
